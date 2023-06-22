@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    height: 5rem;
+}
+.hero{
+    text-align: center;
+    padding: 10px;
+    min-height: calc(100vh - 5rem);
+    background: #BEA7E5;
+}

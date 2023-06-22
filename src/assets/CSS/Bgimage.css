@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body div {
+  min-height: 100vh;
+  color: white;
+  border: 2px solid grey;
+  display: flex;
+  /* FROM LEFT TO RIGHT */
+  justify-content: center;
+  /* FROM TOP TO BOTTOM */
+  align-items: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.big-image {
+  background: url("./land3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* SAME PICTURE WITH small-image */
+  background-attachment: fixed;
+}
+
+.small-image {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./land3.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.normal-image {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./dog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

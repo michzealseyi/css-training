@@ -1,0 +1,27 @@
+.body{
+    font-size: 20px;
+    background: #BACBA9;
+}
+.container{
+    background: #FFE1EA;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+h3{
+    color: blue;
+}
+.special-container {
+    background: rgba(0, 0, 0, 0.24);
+}
+p{
+    font-size: 1.5rem;
+}
+.overflow{
+    background: #B6DCFE;
+    height: 150px;
+    overflow: scroll;
+    padding: 20px;
+}
+/* #FFE1EA
+#816C61 */
