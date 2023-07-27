@@ -1,0 +1,28 @@
+
+nav {
+  height: 5rem;
+  padding: 0 2rem;
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ h2{
+    text-transform: uppercase;
+ }
+
+/* flex sees the h2 and ul.navlink 
+as 2 different items */
+
+.navlinks{
+    display: flex;
+    list-style-type: none;
+    gap: 0 0.5rem;
+
+}
+
+.navlink{
+    text-decoration: none;
+    color:black ;
+    text-transform: capitalize;
+}
