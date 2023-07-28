@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Autoslide from './assets/CSS/Autoslide'
+import Tabs from './assets/CSS/Tabs'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <Autoslide/>
+  <Tabs/>
 )
 /*ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

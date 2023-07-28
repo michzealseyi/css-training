@@ -1,0 +1,41 @@
+.body {
+  padding: 1rem;
+  margin: 50px auto;
+  background: skyblue;
+  width: 90vw;
+  height: 50vh;
+}
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+.tabs-label {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.tabs-radio {
+  display: none;
+}
+.tabs-content {
+  padding: 0.5rem;
+  order: 1;
+  width: 100%;
+  background: white;
+  font-size: 1.5rem;
+  display: none;
+}
+.tabs-content div {
+  font-weight: bold;
+}
+.tabs-radio:checked + .tabs-label {
+  color: black;
+  background: white;
+  border-bottom: 2px solid white;
+}
+.tabs-radio:checked + .tabs-label + .tabs-content {
+  display: block;
+}
+p {
+  font-size: 1rem;
+}
